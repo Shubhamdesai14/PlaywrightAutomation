@@ -18,19 +18,9 @@ frame1.fill('name="mytext1"', 'Hello')
 
 
 
-
 //case-2 using frame locator
 const inputbox=await page.frameLocator("frame[src='frame_1.html").locator("[name='mytext1']")
 inputbox.fill("Hello")
-
-
-
-
-
-
-
-
-
 
 
 
